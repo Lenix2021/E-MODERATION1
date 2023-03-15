@@ -1,0 +1,128 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+nav
+{
+    display: flex;
+    width: 100vw;
+    height: fit-content;
+    background-color: rgb(65, 65, 175);
+    color: white;
+  
+}
+
+nav h1
+{
+    padding-left: 10px;
+}
+
+nav span
+{
+  color:limegreen;
+  padding-left: 10px;
+}
+
+nav ul
+{
+    display: flex;
+    align-items: center;
+   
+}
+
+nav ul li
+{
+    list-style: none;
+    padding-left: 20px;
+   
+  
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: white;  
+}
+
+nav ul li a:hover
+{
+    text-decoration: none;
+    color: limegreen;  
+}
+
+nav input
+{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+    height: 30px;
+    align-self: center;
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight: 30px;
+    color: rgb(4, 133, 4);
+    
+}
+
+nav input:hover
+{
+    background-color:rgb(4, 133, 4);
+    color: white;
+}
+
+main h1
+{
+    padding-left: 500px;
+    padding-top: 30px;
+    font-size: 40px;
+    color:  rgb(4, 133, 4);
+
+}
+
+.tb table
+{
+    margin-left: 250px;
+    background-color: rgb(4, 133, 4);
+    padding-right: 80px;
+    border: 5px;
+    border-radius: 50px;
+    
+}
+
+.tb table:hover
+{
+   background-color: blueviolet;
+   color: white;
+   transition: 30ms;
+}
+
+.tb tr
+{
+   
+    font-size: 15px;
+    color: white
+}
+
+.tb2 table
+{
+    margin-left: 240px;
+    background-color:white;
+    
+}
+
+.tbs tr
+{
+    font-size: 15px;
+    color:black
+}
+
+.tbs table td a
+{
+    text-decoration: none;
+     color:red;
+    
+}
+
